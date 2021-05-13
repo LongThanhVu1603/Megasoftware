@@ -1,73 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Megasoftware</title>
-    <link rel="shortcut icon" type="image/png" href="./img/logo.png"/>
-
-    <!-- Link Font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Link Icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <!-- Link CSS -->
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<body id="content">
-    <!-- Header -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <div class="container">
-            <a href="./index.html" class="navbar-branch">
-                <img src="./img/logo2.jpg" alt="Logo" height="70px">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link active">Trang Chủ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./intro.html" class="nav-link">Giới Thiệu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./product.html" class="nav-link">Sản Phẩm</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./service.html" class="nav-link">Dịch Vụ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./news.html" class="nav-link">Tin Tức</a>
-                    </li>
-                </ul>
-                <form class="form-inline" action="#">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Tìm Kiếm">
-                        <span class="input-group-text"> <i class="fas fa-search"></i></span>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </nav>
-    <!-- End Header -->
+<?php 
+    $page = 'one';
+    include'header.php';
+?>
     <!-- Container -->
         <!-- Section 1-->
             <div class="container-fluid">
@@ -98,13 +32,13 @@
                             <a href="https://play.google.com/store/apps/details?id=com.appteacher&hl=vi&gl=US"><img src="./img/Group 2526.png" alt="" height="360px" width="360px" class="section-two-img"> </a>
                         </div>
                         <div class="col-xl-6 pt-xl-5 col-md-6 col-sm-12 text-center">
-                            <a href=""><img src="./img/Group 2527.png" alt="" height="360px" width="360px" class="section-two-img"> </a>
+                            <a href=""><img src="./img/Group 2544.png" alt="" height="360px" width="360px" class="section-two-img"> </a>
                         </div>
                         <div class="col-xl-6 pt-xl-5 col-md-6 col-sm-12 text-center">
-                            <a href=""><img src="./img/Group 2528.png" alt="" height="360px" width="360px" class="section-two-img"> </a>
+                            <a href=""><img src="./img/Group 2547.png" alt="" height="360px" width="360px" class="section-two-img"> </a>
                         </div>
                         <div class="col-xl-6 pt-xl-5 col-md-6 col-sm-12 text-center">
-                            <a href=""><img src="./img/Group 2529.png" alt="" height="360px" width="360px" class="section-two-img"> </a>
+                            <a href=""><img src="./img/Group 2547.png" alt="" height="360px" width="360px" class="section-two-img"> </a>
                         </div>
                     </div>
                 </div>
@@ -251,87 +185,4 @@
         </div>
         <!-- End Section 5 -->
 
-    <hr class="my-5">
-    <!-- End Container -->
-    <a href="#" id="back-to-top" title="Back to top"><i class="fas fa-hand-point-up icon-backtop"></i></a>
-    <!-- Footer -->
-        <footer>
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="footer-logo">
-                        <img src="./img/Logo MegaSoft.png" alt="" >
-                    </div> 
-                    <div class="row mt-lg-5">
-                        <div class="col-xl-3 col-md-6 ml-sm-auto text-center mt-sm-5 mt-md-5 col-sm-12 footer-item">
-                            <ul>
-                                <h2> Thông Tin</h2>
-                                <li>
-                                    
-                                    <h3> <i class="fas fa-phone"></i> 0965899363</h3>
-                                </li>
-                                <li>
-                                    <h3> <i class="fas fa-envelope"></i> Longthanhvu1603hn2@gmail.com</h3>
-                                </li>
-                                <li>
-                                    
-                                    <h3><i class="fas fa-globe-europe"></i> Megasoft.edu.vn</h3>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-xl-3 col-md-6 ml-sm-auto text-center mt-sm-5 mt-md-5 col-sm-12 footer-item">
-                            <ul>
-                                <h2> Công Ty</h2>
-                                <li>
-                                    <a href=""> Giới Thiệu</a>
-                                </li>
-                                <li>
-                                    <a href=""> Sản Phẩm</a>
-                                </li>
-                                <li>
-                                    <a href=""> Dịch Vụ</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-xl-3 col-md-6 ml-sm-auto text-center mt-sm-5 mt-md-5 col-sm-12 footer-item">
-                            <ul>
-                                <h2> Liên Hệ</h2>
-                                <li>
-                                    <a href=""> FaceBook</a>
-                                </li>
-                                <li>
-                                    <a href=""> Instagram</a>
-                                </li>
-                                <li>
-                                    <a href=""> Youtube</a>
-                                </li>
-                                <li>
-                                    <a href=""> LinkedIn</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-xl-3 col-md-6 ml-sm-auto text-center mt-sm-5 mt-md-5 col-sm-12 footer-item footer-item-social">
-                            <ul>
-                                <h2> Địa Chỉ</h2>
-                                    <h3> Số 342 đường Mỹ Đình, P. Mỹ Đình 1, 
-                                        Q. Nam Từ Liêm, TP Hà Nội, Việt Nam
-                                    </h3>
-                                <h2> Follow Us</h2>
-                                    <li><a href="#"><i class="fab fa-facebook fb" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-youtube ytb" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin link" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-instagram ins" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="clr"></div>
-                </div>
-            </div>
-            <div class="container-fluid bg-footer">
-                <h2 class="footer-copyright"> Copyright@Megasoft2020 Code by <a href="" style="text-decoration: none;">Long Thành Vũ</a> </h2>
-            </div>
-        </footer>
-    <!-- End Footer -->
-
-    <script src="./app.js"></script>
-</body>
-</html>
+<?php include 'footer.php'; ?>

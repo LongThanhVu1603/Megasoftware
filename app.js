@@ -1,13 +1,13 @@
-// Button onclick
 
+// Button onclick
 function product()
 {
-    window.location.replace('./product.html');
+    window.location.replace('./product.php');
 }
 
 function service()
 {
-    window.location.replace('./service.html');
+    window.location.replace('./service.php');
 }
 
 var body = document.body,

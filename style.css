@@ -10,7 +10,8 @@ html,body{
     font-family: 'Quicksand', sans-serif;
 }
 
-.active{
+.active_cus{
+
     font-weight: bold !important;
     color: #2692FC !important;
     border-bottom: 1px solid #2692FC;
